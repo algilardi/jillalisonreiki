@@ -1,9 +1,14 @@
 * {
-    font-family: 'Quicksand', sans-serif;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }
 
 body {
     background-color: #F7F9FB;
+}
+
+.container {
+    max-width: 95%;
+    margin:auto;
 }
 
 .placeholder {
@@ -11,14 +16,38 @@ body {
 }
 
 .jumbotron {
+    height: 400px;
+    background-image: url("./img/trees.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+
+.text {
+    width: 400px;
     text-align: center;
-    background-color: #8FC1E3;
+    margin-top: 5%;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .text {
+        margin-left: 20%;
+    }
+}
+
+.subtext {
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+
+.text h1 {
+    color: #0061FF
 }
 
 a {
-    color: #31708E
+    color: #D4DEEA;
 }
 
 a:hover {
-    color: #5085A5
+    color: #E1EAF1;
 }
