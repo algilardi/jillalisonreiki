@@ -6,10 +6,10 @@ body {
     background-color: #F7F9FB;
 }
 
-.container {
+/* .container {
     max-width: 95%;
     margin:auto;
-}
+} */
 
 .placeholder {
     margin-top: 15%;
@@ -23,13 +23,19 @@ body {
 }
 
 .text {
-    width: 400px;
+    width: 275px;
     text-align: center;
     margin-top: 5%;
     color: white;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 750px) {
+    .text {
+        width: 300px
+    }
+}
+
+@media (min-width: 900px) {
     .text {
         margin-left: 20%;
     }
